@@ -61,13 +61,21 @@ Final Travel Plan Output
 
 .
 ├── main.py # LangGraph multi-agent backend
+
 ├── frontend.py # Streamlit UI
+
 ├── tools/
+
 │ ├── flight_tool.py # Flight API integration
+
 │ ├── tavily_tool.py # Web search tool
+
 ├── travel_plans/ # Saved generated plans
+
 ├── .env # API keys (NOT pushed to GitHub)
+
 ├── requirements.txt
+
 └── README.md
 
 
