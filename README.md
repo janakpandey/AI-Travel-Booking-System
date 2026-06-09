@@ -80,6 +80,16 @@ Final Travel Plan Output
 
 
 ---
+# ▶️ Run the Project
+Start Streamlit UI
+streamlit run frontend.py
+# 🧠 How It Works
+User enters a travel query
+Flight Agent fetches flight data
+Hotel Agent searches hotels
+Itinerary Agent builds a day-wise plan
+Final Agent formats complete travel plan
+Output is shown in UI and saved as markdown
 
 # ⚙️ Installation
 
@@ -100,13 +110,5 @@ DATABASE_URL=postgresql://user:password@localhost:5432/dbname
 AVIATIONSTACK_API_KEY=your_api_key
 TAVILY_API_KEY=your_api_key
 GROQ_API_KEY=your_api_key
-▶️ Run the Project
-Start Streamlit UI
-streamlit run frontend.py
-🧠 How It Works
-User enters a travel query
-Flight Agent fetches flight data
-Hotel Agent searches hotels
-Itinerary Agent builds a day-wise plan
-Final Agent formats complete travel plan
-Output is shown in UI and saved as markdown
+
+
