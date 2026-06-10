@@ -14,8 +14,6 @@ services:
   - type: web
     name: aeroplanner-api
     runtime: python
-    repo: https://github.com/yourusername/Travel_Multi_Agent
-    branch: main
     plan: free
     region: oregon
     rootDir: .
@@ -40,13 +38,11 @@ services:
   - type: web
     name: aeroplanner-ui
     runtime: node
-    repo: https://github.com/yourusername/Travel_Multi_Agent
-    branch: main
     plan: free
     region: oregon
     rootDir: web
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    startCommand: npx next start -p $PORT
     healthCheckPath: /
     envVars:
       - key: NODE_ENV
