@@ -55,4 +55,4 @@ services:
         fromService:
           type: web
           name: aeroplanner-api
-          property: hostname # e.g. https://aeroplanner-api.onrender.com
+          property: host # → "aeroplanner-api.onrender.com" (api.ts prepends https://)
